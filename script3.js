@@ -9,32 +9,6 @@ var Counter = React.createClass({
         };
     },
 
-    componentWillMount: function() {
-        console.log('before render');
-    },
-    
-    
-
-    componentDidMount: function() {
-        console.log();
-    },
-
-    componentWillReceiveProps: function() {
-        console.log();
-    },
-
-    shouldComponentUpdate: function() {
-        console.log();
-    },
-
-    componentWillUpdate: function() {
-        console.log();
-    },
-
-    componentDidUpdate: function() {
-        console.log();
-    },
-
 
     increment: function() {
         this.setState({
