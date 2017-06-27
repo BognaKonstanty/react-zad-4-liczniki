@@ -25,6 +25,7 @@ var Counter = React.createClass({
 
     shouldComponentUpdate: function() {
         console.log();
+        return true;
     },
 
     componentWillUpdate: function() {
